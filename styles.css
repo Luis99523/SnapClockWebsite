@@ -27,6 +27,7 @@ body{
 }
 
 #PurchaseButton {
-    font-size: 250%;
-    border-radius: 50%;
+    font-size: 300%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(40, 126, 206), blue);
 }

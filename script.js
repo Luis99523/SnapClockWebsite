@@ -20,3 +20,7 @@ function changeTime(){
         }
 
 setInterval(changeTime, 1000)
+
+function PurchaseButtonClick() {
+    window.location.href = "https://www.google.com";
+}
