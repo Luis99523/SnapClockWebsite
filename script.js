@@ -16,7 +16,7 @@ function changeTime(){
             
             let currentTime = hours.concat(":", minutes, ":", seconds)
 
-            document.getElementById("currenttime").innerText = currentTime;
+            document.getElementById("CurrentTime").innerText = currentTime;
         }
 
 setInterval(changeTime, 1000)
