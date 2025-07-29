@@ -11,7 +11,7 @@ function changeTime(){
                 "0".concat(minutes);
             };
             if (seconds.length == 1){
-                "0".concat(minutes);
+                "0".concat(seconds);
             };
             
             let currentTime = hours.concat(":", minutes, ":", seconds)
