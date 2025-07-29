@@ -33,15 +33,15 @@ body{
 }
 
 #CurrentTime {
+    margin-left: 25%;
     color: red;
     font-family: ClockFont;
     font-size: 600%;
-    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-80%, -50%);
     background-color: #010101;
     background-size: 200%;
+    max-width: 25%;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 5%;
@@ -62,11 +62,4 @@ body{
 #PurchaseButton:hover {
     background-image: linear-gradient(to right, rgb(40, 57, 206));
     transform: scale(1.1);
-}
-
-
-
-.image-container {
-  position: relative;
-  display: inline-block;
 }
