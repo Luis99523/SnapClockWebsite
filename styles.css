@@ -36,13 +36,11 @@ body{
     width:50%;
     height:50%;
     text-align: center;
+    
 }
 
 .ClockSimulator img{
-    display: block;
     width: 100%;
-    height: auto;
-    /* margin-left: 50%; */
 }
 
 #CurrentTime {
@@ -59,6 +57,12 @@ body{
     font-size: 300%;
     border-radius: 10px;
     background-image: linear-gradient(to bottom right, rgb(40, 126, 206), blue);
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+#PurchaseButton:hover {
+    background-image: linear-gradient(to right, rgb(40, 57, 206));
+    transform: scale(1.1);
 }
 
 .image-container {
