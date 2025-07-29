@@ -1,3 +1,32 @@
-body{
-    
+body{   
+    text-align: center;
+    list-style-position: inside;
+    font-family: NewFont;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, rgb(64, 139, 168), rgb(92, 86, 142));
+}
+
+@font-face {
+	font-family: 'NewFont';
+	src: local('SOFIAPROSOFTBOLD'), url('./SOFIAPROSOFTBOLD.woff') format('woff');
+}
+
+#Title {
+    color: rgb(25, 0, 255);
+    font-size: 400%;
+}
+
+#ParagraphText {
+    font-size: 150%;
+}
+
+#SimText {
+    color:aqua;
+    font-size: 250%;
+}
+
+#PurchaseButton {
+    font-size: 250%;
+    border-radius: 50%;
 }
