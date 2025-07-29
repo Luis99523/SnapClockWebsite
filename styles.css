@@ -26,6 +26,11 @@ body{
     font-size: 250%;
 }
 
+#CurrentTime {
+    color: red;
+    
+}
+
 #PurchaseButton {
     font-size: 300%;
     border-radius: 10px;
