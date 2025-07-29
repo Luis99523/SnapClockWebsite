@@ -5,13 +5,13 @@ function changeTime(){
             let seconds = currentDate.getSeconds().toString();
 
             if (hours.length == 1){
-                "0".concat(hours);
+                hours = "0".concat(hours);
             };
             if (minutes.length == 1){
-                "0".concat(minutes);
+                minutes = "0".concat(minutes);
             };
             if (seconds.length == 1){
-                "0".concat(seconds);
+                seconds = "0".concat(seconds);
             };
             
             let currentTime = hours.concat(":", minutes, ":", seconds)
