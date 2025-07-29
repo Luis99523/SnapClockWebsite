@@ -32,13 +32,36 @@ body{
     font-size: 250%;
 }
 
+.ClockSimulator {
+    width:50%;
+    height:50%;
+    text-align: center;
+}
+
+.ClockSimulator img{
+    display: block;
+    width: 100%;
+    height: auto;
+    /* margin-left: 50%; */
+}
+
 #CurrentTime {
     color: red;
     font-family: ClockFont;
+    font-size: 600%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #PurchaseButton {
     font-size: 300%;
     border-radius: 10px;
     background-image: linear-gradient(to bottom right, rgb(40, 126, 206), blue);
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
 }
