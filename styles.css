@@ -33,6 +33,7 @@ body{
 }
 
 #CurrentTime {
+    margin-left: 25%;
     color: red;
     font-family: ClockFont;
     font-size: 600%;
