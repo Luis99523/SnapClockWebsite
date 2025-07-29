@@ -4,7 +4,7 @@ body{
     font-family: NewFont;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom right, rgb(64, 139, 168), rgb(92, 86, 142));
+    background-image: linear-gradient(to bottom right, rgb(64, 139, 168), rgba(92, 86, 142, 0.589));
 }
 
 @font-face {
@@ -14,7 +14,7 @@ body{
 
 @font-face {
 	font-family: 'ClockFont';
-	src: local('digital-7'), url('fonts/digital-7/digital-7 (mono).ttf') format('ttf');
+	src: local('DS-DIGIB'), url('DS-DIGIB.woff') format('woff');
 }
 
 
