@@ -24,3 +24,15 @@ setInterval(changeTime, 1000)
 function PurchaseButtonClick() {
     window.open("https://www.google.com");
 }
+
+function openHome() {
+    console.log("Home")
+}
+
+function openPricing() {
+    console.log("Pricing")
+}
+
+function openAbout() {
+    console.log("About")
+}

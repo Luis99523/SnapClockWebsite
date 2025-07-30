@@ -20,7 +20,8 @@ body{
 
 #Title {
     color: rgb(25, 0, 255);
-    font-size: 400%;
+    font-size: 500%;
+    margin-top: 1%;
 }
 
 #ParagraphText {
@@ -63,4 +64,19 @@ body{
 #PurchaseButton:hover {
     background-image: linear-gradient(to right, rgb(40, 57, 206));
     transform: scale(1.1);
+}
+
+#Home {
+    font-size: 250%;
+    
+}
+
+#Pricing {
+    font-size: 250%;
+    margin-left: 20%;
+}
+
+#About {
+    font-size: 250%;
+    margin-left: 20%;
 }
