@@ -43,17 +43,20 @@ body{
     text-align: left;
     color: red;
     font-family: ClockFont;
-    font-size: 600%;
+    font-size: 200px;
     background-color: #010101;
-    background-size: 200%;
-    margin-left: 5%;
+    background-size: 180px;
+    margin-left: 16%;
     margin-right: 5%;
     padding-left: 5%;
     border-style: solid;
     border-width: 7px;
     border-color: gray;
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 1);
+    position: absolute;
+    min-width: 6em;
+    transform: translateY(-0.5em);
 }
 
 #PurchaseButton {
@@ -61,11 +64,13 @@ body{
     border-radius: 10px;
     background-image: linear-gradient(to bottom right, rgb(40, 126, 206), blue);
     transition: background-color 0.4s, transform 0.4s;
+    transform: translateY(4em);
+    margin-bottom: 10em;
 }
 
 #PurchaseButton:hover {
     background-image: linear-gradient(to right, rgb(40, 57, 206));
-    transform: scale(1.1);
+    transform: translateY(4em) scale(1.1);
 }
 
 #Home {
@@ -141,6 +146,26 @@ body{
 
 .tabs:hover {
     transform: scale(1.1);
+}
+
+#PriceTab {
+    transform: translateY(-18em);
+}
+
+#ControlArea {
+    transform: translate(34.95em, -37.5em) ;
+    background-color: rgb(102, 101, 101);
+    width: 25.8%;
+    height: 7em;
+    border-style: solid;
+    border-width: 7px;
+    border-color: gray;
+    border-radius: 20px;
+}
+
+#ControlBackground {
+    color: rgb(102, 101, 101);
+
 }
 
 @keyframes fade {
