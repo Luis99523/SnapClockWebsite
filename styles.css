@@ -77,6 +77,16 @@ body{
     border-width: 5px;
 }
 
+#HomeMain {
+    color: rgb(0, 85, 7);
+    font-size: 200%;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-width: 5px;
+}
+
 #Pricing {
     font-size: 200%;
     margin-left: 20%;
@@ -87,6 +97,18 @@ body{
     border-width: 5px;
 }
 
+#PricingMain {
+    color: rgb(0, 85, 7);
+    font-size: 200%;
+    margin-left: 20%;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-width: 5px;
+}
+
+
 #About {
     font-size: 200%;
     margin-left: 20%;
@@ -95,6 +117,21 @@ body{
     border-left: transparent;
     border-right: transparent;
     border-width: 5px;
+}
+
+#AboutMain {
+    color: rgb(0, 85, 7);
+    font-size: 200%;
+    margin-left: 20%;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-width: 5px;
+}
+
+#AboutTitle {
+    font-size: 150%;
 }
 
 .tabs {

@@ -22,13 +22,13 @@ function changeTime(){
 setInterval(changeTime, 1000)
 
 function openHome() {
-    console.log("Home")
+    window.location.href = "index.html"
 }
 
 function openPricing() {
-    console.log("Pricing")
+    window.location.href = "Pricing.html"
 }
 
 function openAbout() {
-    console.log("About")
+    window.location.href = "About.html"
 }
